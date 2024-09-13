@@ -50,7 +50,6 @@ btn=Button(fr,text="7",padx=20,pady=18,font="lucida 20 bold")
 btn.pack(side="right",padx=16,pady=5)
 btn.bind("<Button-1>",click)
 
-
 fr=Frame(root,bg="grey")
 fr.pack()
 
@@ -69,7 +68,6 @@ btn.bind("<Button-1>",click)
 btn=Button(fr,text="4",padx=20,pady=18,font="lucida 20 bold")
 btn.pack(side="right",padx=18,pady=5)
 btn.bind("<Button-1>",click)
-
 
 fr=Frame(root,bg="grey")
 fr.pack()
@@ -90,8 +88,6 @@ btn=Button(fr,text="1",padx=20,pady=18,font="lucida 20 bold")
 btn.pack(side="right",padx=16,pady=5)
 btn.bind("<Button-1>",click)
 
-
-
 fr=Frame(root,bg="grey")
 fr.pack()
 
@@ -107,10 +103,8 @@ btn=Button(fr,text="0",padx=20,pady=18,font="lucida 20 bold")
 btn.pack(side="right" ,padx=18,pady=5)
 btn.bind("<Button-1>",click)
 
-
 btn=Button(fr,text="=",padx=20,pady=18,font="lucida 20 bold")
 btn.pack(side="right" ,padx=15,pady=5)
 btn.bind("<Button-1>",click)
-
 
 root.mainloop()
