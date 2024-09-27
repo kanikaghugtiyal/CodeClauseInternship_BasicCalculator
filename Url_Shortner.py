@@ -29,7 +29,7 @@ Entry1.pack(pady=30)
 btn=Button(root,text="Click",font="impack 12 bold",bg="blue",fg="white",width="14",command=short)
 btn.pack(pady=40)
 
-Entry2=Entry(root,font="impack 16 bold",bg="pink",width=24)
+Entry2=Entry(root,font="impack 16 bold",bg="black",fg="white",width=24)
 Entry2.pack(pady=30)
 
 mainloop()
